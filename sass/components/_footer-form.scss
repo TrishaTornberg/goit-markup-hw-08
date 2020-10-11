@@ -1,0 +1,28 @@
+.footer-form {
+  position: absolute;
+}
+
+.footer-form__button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0%;
+  left: 100%;
+  height: 50px;
+  border-radius: 4px;
+  padding: 10px 28px 10px 29px;
+  min-width: 136px;
+  margin-top: 0px;
+  color:$primary-white-color;
+  background-color: $accent-color;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.footer-form__icon {
+  margin-left: 10px;
+}

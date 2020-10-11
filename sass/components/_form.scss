@@ -1,0 +1,115 @@
+.form {
+  position: relative;
+  width: 100%;
+}
+
+.form__title {
+  width: 448px;
+  margin-top: 0px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $title-text-color;
+}
+
+.form__field {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: $primary-text-color;
+  transform: translateX(-50%, -50%) scale(0.1);
+}
+
+.form__field input {
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.form__icon {
+  position: absolute;
+  left: 55px;
+  transform: translateY(50%);
+  display: inline-block;
+  fill: $title-text-color;
+}
+
+.form__input:focus ~ .form__icon {
+  fill: $accent-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form__input {
+  position: relative;
+  margin-bottom: 10px;
+  height: 40px;
+  padding-left: 42px;
+    &:focus {
+  outline: transparent;
+  border: 1px solid $accent-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+.form__label {
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.form__checkbox {
+  margin-top: 20px;
+}
+
+.form__checkbox-input {
+  appearance: none;
+  position: absolute;
+}
+
+.form__link {
+  color: $accent-color;
+}
+
+.form__button-privacy {
+  position: absolute;
+  top: 85%;
+  left: 30%;
+  border-radius: 4px;
+  padding: 10px 55px;
+  min-width: 200px;
+  margin-top: 0px;
+  color:$primary-white-color;
+  background-color: $accent-color;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-align: center;
+}
+
+.form__checkbox-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: $primary-text-color;
+}
+
+.form__checkbox-icon {
+  display: inline-block;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 9px;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-image: url(../images/icon-check.svg);
+}
+
+.form__checkbox-input:checked + .form__checkbox-icon {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: $accent-color;
+  background-color: $accent-color;
+  background-size: contain;
+}

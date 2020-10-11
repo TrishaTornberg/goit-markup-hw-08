@@ -1,0 +1,32 @@
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $secondary-bg-color;
+  color:$primary-white-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer--link {
+  color: $contacts-text-color;
+  text-decoration: none;
+}
+
+footer .logo {
+  padding-bottom: 20px;
+  color:$primary-white-color;
+}
+
+footer .logo__footer {
+  color: $accent-color;
+}
+
+.footer__address {
+  margin-right: 70px;
+}
+
+.footer__address-text {
+  margin-bottom: 9px;
+}

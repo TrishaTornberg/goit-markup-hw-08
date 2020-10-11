@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Шапка сайта -->
+    <header class="navigation">
+        <div class="container flexbox">
+            <nav class="nav">
+                <a href="./index.html" class="logo"><span class="logo__header">Web</span>Studio</a>
+                <ul class="nav__site">
+                    <li><a href="./index.html" class="nav__link">Студия</a></li>
+                    <li><a href="./portfolio.html" class="nav__link current">Портфолио</a></li>
+                    <li><a href="" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="contacts">
+                <a href="mailto:info@example.com" class="contacts__link contacts__link--header"><svg width="16"
+                        height="12" class="contact__icon">
+                        <use href="./images/spryte.svg#icon-email"></use>
+                    </svg> info@example.com</a>
+                <a href="callto:+38-099-111-11-11" class="contacts__link contacts__link--header"><svg width="10"
+                        height="16" class="contact__icon">
+                        <use href="./images/spryte.svg#icon-smartphone"></use>
+                    </svg>+38 099 111 11 11</a>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1 class="section__title is-hidden">Фильтры</h1>
+                <div>
+                    <ul class="button-list flexbox">
+                        <li><button type="button" class="button-list__fillter">Все</button></li>
+                        <li><button type="button" class="button-list__fillter">Веб-сайты</button></li>
+                        <li><button type="button" class="button-list__fillter">Приложения</button></li>
+                        <li><button type="button" class="button-list__fillter">Дизайн</button></li>
+                        <li><button type="button" class="button-list__fillter">Маркетинг</button></li>
+                    </ul>
+                </div>
+                <ul class="portfolio-list flexbox">
+                    <li class=" portfolio">
+                        <a href="" class="portfolio-list portfolio-list--link">
+                            <div class="portfolio-overlay">
+                                <img src="./images/project1.png" alt="MacBook" width="370" height="294">
+                                <p class="portfolio__description">Технокряк это современная площадка распространения
+                                    коронавируса. Компании используют
+                                    эту платформу для цифрового
+                                    шпионажа и атак на защищённые сервера конкурентов.</p>
+
+                            </div>
+                            <div class="portfolio__text">
+                                <h2 class="portfolio__title">Технокряк</h2>
+                                <p class="portfolio__name">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio"><a href="" class="portfolio-list portfolio-list--link">
+                            <div><img src="./images/project2.png" alt="BasketballTeam" width="370" height="294"></div>
+                            <div class="portfolio__text">
+                                <h2 class="portfolio__title">Постер New Orlean vs Golden Star</h2>
+                                <p class="portfolio__name">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio"><a href="" class="portfolio-list portfolio-list--link">
+                            <div><img src="./images/project3.png" alt="TheSeafoodRestaurant" width="370" height="294">
+                            </div>
+                            <div class="portfolio__text">
+                                <h2 class="portfolio__title">Ресторан Seafood</h2>
+                                <p class="portfolio__name">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio"><a href="" class="portfolio-list portfolio-list--link">
+                            <div><img src="./images/project4.png" alt="Headphone" width="370" height="294"></div>
+                            <div class="portfolio__text">
+                                <h2 class="portfolio__title">Проект Prime</h2>
+                                <p class="portfolio__name">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio"><a href="" class="portfolio-list portfolio-list--link">
+                            <div><img src="./images/project5.png" alt="Boxes"></div>
+                            <div class="portfolio__text">
+                                <h2 class="portfolio__title">Проект Boxes</h2>
+                                <p class="portfolio__name">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio"><a href="" class="portfolio-list portfolio-list--link">
+                            <div><img src="./images/project6.png" alt="Monoblock" width="370" height="294"></div>
+                            <div class="portfolio__text">
+                                <h2 class="portfolio__title">Inspiration has no Borders</h2>
+                                <p class="portfolio__name">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio"><a href="" class="portfolio-list portfolio-list--link">
+                            <div><img src="./images/project7.png" alt="MacBook" width="370" height="294"></div>
+                            <div class="portfolio__text">
+                                <h2 class="portfolio__title">Издание Limited Edition</h2>
+                                <p class="portfolio__name">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio"><a href="" class="portfolio-list portfolio-list--link">
+                            <div><img src="./images/project8.png" alt="Label" width="370" height="294"></div>
+                            <div class="portfolio__text">
+                                <h2 class="portfolio__title">Проект LAB</h2>
+                                <p class="portfolio__name">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio"><a href="" class="portfolio-list portfolio-list--link">
+                            <div><img src="./images/project9.png" alt="Laptop" width="370" height="294"></div>
+                            <div class="portfolio__text">
+                                <h2 class="portfolio__title">Growing Business</h2>
+                                <p class="portfolio__name">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- Футер-->
+    <footer class="footer">
+        <div class="container flexbox">
+            <div class="footer__address"><a href="./index.html" class="logo"><span
+                        class="logo__footer">Web</span>Studio</a>
+                <address>
+                    <ul class="address">
+                        <li class="address__text">г. Киев, пр-т Леси Украинки, 26</li>
+                        <li class="address__text"><a href="mailto:info@example.com"
+                                class="footer footer--link">info@example.com</a>
+                        </li>
+                        <li><a href="callto:+38-099-111-11-11" class="footer footer--link">+38 099 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+            <div>
+                <h4 class="social__title">присоединяйтесь</h4>
+                <ul class="social social--address">
+                    <li class="social__item"><a href="" class="social__footer"><svg class="social__icon-footer">
+                                <use href=" ./images/spryte.svg#icon-instagram"></use>
+                            </svg></a>
+                    </li>
+                    <li class="social__item"><a href="" class="social__footer"><svg class="social__icon-footer">
+                                <use href=" ./images/spryte.svg#icon-twitter"></use>
+                            </svg></a>
+                    </li>
+                    <li class="social__item"><a href="" class="social__footer"><svg class="social__icon-footer">
+                                <use href=" ./images/spryte.svg#icon-facebook"></use>
+                            </svg></a>
+                    </li>
+
+                    <li class="social__item"><a href="" class="social__footer"><svg class="social__icon-footer">
+                                <use href=" ./images/spryte.svg#icon-linkedin"></use>
+                            </svg></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sign-up">
+                <h4 class="social__title">Подпишитесь на рассылку</h4>
+                <form class="footer-form">
+                    <input class="sign-up__email" name="mail" placeholder="E-mail">
+                    <button class="footer-form__button" type="submit">Подписаться<svg width="24" height="24"
+                            class="footer-form__icon">
+                            <use href=" ./images/spryte.svg#icon-send"></use>
+                        </svg></button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
