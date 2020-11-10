@@ -1,21 +1,35 @@
-@import './utils/variables';
-@import'./base/common';
-@import './components/logo';
-@import './components/section';
-@import './components/navigation';
-@import './components/contacts';
-@import './components/hero';
-@import './components/backdrop';
-@import './components/modal';
-@import './components/form';
-@import './components/features';
-@import './components/work';
-@import './components/team';
-@import './components/social';
-@import './components/client';
-@import './components/sign-up';
-@import './components/button-list';
-@import './components/portfolio';
-@import './components/footer';
-@import './components/footer-form';
-@import './components/social-footer';
+@import "./utils/normalize";
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./base/fonts";
+@import "./base/common";
+@import "./components/container";
+@import "./components/logo";
+@import "./components/buttons";
+@import "./components/menu";
+@import "./components/menu-mobile";
+@import "./layouts/hero";
+@import "./layouts/section";
+@import "./layouts/feature";
+@import "./layouts/work";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./components/footer";
+@import "./components/address";
+@import "./components/social";
+@import "./layouts/filter";
+@import "./layouts/catalog";
+@import "./components/modal";
+
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* дополнительный цвет текста rgba(255, 255, 255, 0.6) */
+/* цвет логотипа #000000 */
+/* цвет акцента #2196F3 */
+/* первичный цвет фона #ffffff */
+/* вторичный цвет фона #F5F4FA */
+/* темный цвет #2f303a */
+/* цвет рамки #eeeeee */
+/* цвет слоя баннера rgba(47, 48, 58, 0.4) */
+/* основной цвет иконок #afb1b8 */
+

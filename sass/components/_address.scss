@@ -1,0 +1,52 @@
+.main-address {
+  @include for-size(mobile-only) {
+    width: 100%;
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    margin-right: 165px;
+    margin-left: 61px;
+  }
+
+  @media (max-width: 1199px) {
+    text-align: center;
+  }
+
+  @include for-size(desktop) {
+    margin-right: 70px;
+  }
+}
+
+.main-address__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.address {
+  font-style: normal;
+}
+.address__text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.address__link {
+  color: rgba(255, 255, 255, 0.6);
+  transition-property: color;
+  transition-duration: $duration;
+  transition-timing-function: $timing-function;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.address__item + .address__item {
+  margin-top: 3.5px;
+
+  @include for-size(desktop) {
+    margin-top: 4.5px;
+  }
+}
+

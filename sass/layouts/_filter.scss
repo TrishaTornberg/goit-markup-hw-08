@@ -1,0 +1,32 @@
+.filter {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @include for-size(desktop) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.filter__button {
+  display: flex;
+
+  @include for-size(tablet-without) {
+    flex-wrap: wrap;
+  }
+  @include for-size(tablet) {
+    justify-content: center;
+  }
+}
+
+.filter__item {
+  display: block;
+
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  @include for-size(tablet-without) {
+    margin-bottom: 15px;
+  }
+}
